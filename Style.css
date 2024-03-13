@@ -16,8 +16,7 @@ html , body{
     justify-content: center;
     align-items: center;
     
-    background-image: url("../suhys/Assets/wp7196343.jpg");
-    opacity: 0.5;
+    background-image: url("Assets/wp7196343.jpg");
     background-size: cover;
     background-repeat: no-repeat;   
 }
@@ -36,7 +35,7 @@ html , body{
 }
 
 .two{
-    background-image: url("../suhys/Assets/1223562.png");
+    background-image: url("Assets/1223562.png");
     overflow: hidden;
     background-repeat: no-repeat;
     background-size: cover;
@@ -82,8 +81,8 @@ html , body{
     
 .three{
   /* background-color: blanchedalmond; */
-  flex-direction: column;
-  background-image: url("../suhys/Assets/1223562.png");
+  flex-direction: row;
+  background-image: url("Assets/1090397.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -94,11 +93,14 @@ html , body{
   height: 100%;
   width: 100%;
 }
-.about{
+.left{
   font-size: xx-large;
   color: white;
   margin: 30px;
   padding: 30px;
+}
+.right{
+  border: 10px solid black;
 }
 
 
