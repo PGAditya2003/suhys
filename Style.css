@@ -16,7 +16,8 @@ html , body{
     justify-content: center;
     align-items: center;
     
-    background-image: url("../../Wall/wp7196343.jpg");
+    background-image: url("../suhys/Assets/wp7196343.jpg");
+    opacity: 0.5;
     background-size: cover;
     background-repeat: no-repeat;   
 }
@@ -35,7 +36,7 @@ html , body{
 }
 
 .two{
-    background-image: url("../../Wall/1223562.png");
+    background-image: url("../suhys/Assets/1223562.png");
     overflow: hidden;
     background-repeat: no-repeat;
     background-size: cover;
@@ -80,9 +81,9 @@ html , body{
   }
     
 .three{
-
+  /* background-color: blanchedalmond; */
   flex-direction: column;
-  background-image: url("../../Wall/download.jpg");
+  background-image: url("../suhys/Assets/1223562.png");
   background-repeat: no-repeat;
   background-size: cover;
 
