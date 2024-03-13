@@ -1,0 +1,111 @@
+html , body{
+ height: 100%;
+ width: 100%;
+ flex-direction: column;
+ padding: 0%;
+ margin: 0px;
+}
+
+.one{
+    padding:  0px;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    /* border: 5px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-image: url("../../Wall/wp7196343.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+
+.name{
+  padding: 10px;
+  color: white ;
+  font-size: xx-large;
+  border: 5px solid white;
+}
+
+.data{
+  border: 5px solid white;
+  border-radius: 3%;
+  padding: 20px 120px 20px 100px  ;
+}
+
+.two{
+    background-image: url("../../Wall/1223562.png");
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    
+    justify-content: left;
+    align-items: center;
+    
+    color: white;
+    letter-spacing: 0.25rem;
+    /* padding: 10px;
+    background-color: blueviolet; */
+    width: 100%;
+    height: 100%;
+    
+}
+.two a{
+  color: aliceblue;
+}
+.name h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+    
+.three{
+
+  flex-direction: column;
+  background-image: url("../../Wall/download.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100%;
+  width: 100%;
+}
+.about{
+  font-size: xx-large;
+  color: white;
+  margin: 30px;
+  padding: 30px;
+}
+
+
+
+
+
+
+
+
+
+
