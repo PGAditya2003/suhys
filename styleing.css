@@ -13,7 +13,13 @@ body{
     background-color: black;
     background-position: fixed;
 }
+.main::-webkit-scrollbar{
+    display: none;
+}
 .main{
+
+    /* flex-wrap: wrap; */
+    overflow: scroll;
     display: flex;
     flex-direction: column;
     z-index: 10;
