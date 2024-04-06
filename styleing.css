@@ -56,7 +56,7 @@ body{
     #6599e2 0 350px,
     #61c2e4 0 400px) 10; */
 
-    transition: width 2s, height 2s;    
+    /* transition: width 2s, height 2s;     */
 }
 div:hover {
     
