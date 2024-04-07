@@ -17,7 +17,7 @@ body{
     display: none;
 }
 .main{
-
+    border-radius: 1rem;
     /* flex-wrap: wrap; */
     overflow: scroll;
     display: flex;
@@ -28,5 +28,72 @@ body{
 
     align-items: center;
 
-    border: 10px solid white;
+    border: 5px solid transparent;
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 1;
+    /* background-image: repeating-linear-gradient(to right,
+    #c4e17f 0px, #c4e17f 50px,
+    #f7fdca 50px, #f7fdca 100px,
+    #fad071 100px, #fad071 150px,
+    #f0766b 150px, #f0766b 200px,
+    #db9dbe 200px, #db9dbe 250px,
+    #c49cdf 250px, #c49cdf 300px,
+    #6599e2 300px, #6599e2 350px,
+    #61c2e4 350px, #61c2e4 400px);
+    background-size: 100% 10px;
+    background-repeat:no-repeat; */
+
+    /* background: white;
+    border-radius:5px;
+    border: 10px solid;
+    border-image:linear-gradient(90deg,
+    #c4e17f 0 50px,
+    #f7fdca 0 100px,
+    #fad071 0 150px,
+    #f0766b 0 200px,
+    #db9dbe 0 250px,
+    #c49cdf 0 300px,
+    #6599e2 0 350px,
+    #61c2e4 0 400px) 10; */
+
+    /* transition: width 2s, height 2s;     */
 }
+div:hover {
+    
+    /* transform: rotate(180deg); */
+    animation: rotate 2s linear infinite;
+  }
+@keyframes rotate {
+    80%{
+        scale: 0.1;
+        transform: rotate(-360deg);
+    }
+    50%{ 
+    scale: 3;
+    transform: rotate(360deg);
+    }
+}
+a{
+    text-decoration: none;
+    color: #fd1892 ;
+}
+h1 {
+    background: radial-gradient(
+      circle,
+      rgb(212, 225, 160) 0%,
+      rgb(104, 4, 4) 100%
+    );
+    /* font-family: "GOTSamar"; */
+    background-size: 200%;
+    font-weight: bolder;
+    color: transparent;
+    background-clip: text;
+    animation: animation 2s linear infinite;
+  }
+  
+  @keyframes animation {
+    to {
+      background-position: 200% center;
+    }
+  }
+  
