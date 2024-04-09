@@ -5,30 +5,49 @@ html , body{
 *{
     margin: 10px;
 }
+img{
+  margin: 0px;
+}
 body{
     display: flex;
     justify-content: center;
+    flex-direction: row;
+    margin: 0px;
+    padding: 0;
     /* align-items: center; */
 /* 
+    
     background-image: url("Assets/yung\ jo.jpeg");
     background-position: fixed;
     background-size: 33%;
     background-repeat: repeat-y; */
     background-color: rgb(0, 0, 0);
+    overflow-x: hidden;
 }
 .main::-webkit-scrollbar{
     display: none;
 }
+.mid{
+  display: block;
+  z-index: 20;
+  justify-content:center ;
+  flex-direction: column;
+  margin: 0px;
+  height: 1000px;
+}
 .main{
+    color: white;
     border-radius: 1rem;
     /* flex-wrap: wrap; */
     overflow: scroll;
     display: flex;
     flex-direction: column;
     z-index: 10;
-    width: 33%;
-    background-color: rgb(190, 191, 191);
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
     padding: 0px 10px;
+    margin-left: 0;
 
     align-items: center;
 
@@ -62,10 +81,9 @@ body{
 
     /* transition: width 2s, height 2s;     */
 }
-div:hover {
-    
+.main:hover {
     /* transform: rotate(180deg); */
-    animation: rotate 2s linear infinite;
+    animation: rotate 10s linear infinite;
   }
 @keyframes rotate {
     80%{
@@ -108,6 +126,12 @@ h1 {
     width: 80%;
     border-radius: 20px;
     border-color: transparent;
-    font-size: x-large;
+    /* font-size: x-large; */
     
+  }
+  .side{
+    
+   margin-left: 0px;
+   margin: 0;
+   padding: 0;
   }

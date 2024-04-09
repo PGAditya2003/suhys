@@ -3,7 +3,6 @@ whobtn.addEventListener("click", InputMsg);
 
 function InputMsg(){
     let name = prompt('Enter Name');
-    whobtn.textContent = 'Hello I am ' + name;
-    
+    whobtn.textContent = 'Hello Plebs ' + name;
 }
 
